@@ -1,0 +1,57 @@
+﻿<!-- Nucleo Icons -->
+
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- partial -->
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Student Add Page
+                        </h4>
+                        <form asp-action="AddStudent" asp-controller="Student" method="post" class="text-start">
+                            <label class="form-label">Student Name</label>
+                            <div class="input-group input-group-outline mb-2">
+                                <input type="text" name="StudentName" class="form-control">
+                            </div>
+                            <label class="form-label">Student Surname</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="StudentSurname" class="form-control">
+                            </div>
+                            <label class="form-label">Student Number</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="StudentNumber" class="form-control">
+                            </div>
+                            <label class="form-label">Student Mail</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="StudentMail" class="form-control">
+                            </div>
+                            <label class="form-label">Student Password</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="StudentPassword" class="form-control">
+                            </div>
+                            <label class="form-label">Role</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="UserRole" class="form-control">
+                            </div>
+                            <label class="form-label">TeacherId</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="TeacherId" class="form-control">
+                            </div>
+                          
+                            <label class="form-label">LessonId</label>
+                            <div class="input-group input-group-outline mb-3">
+                                <input type="text" name="LessonId" class="form-control">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">ADD STUDENT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
